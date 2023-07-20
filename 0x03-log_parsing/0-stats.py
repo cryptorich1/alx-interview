@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sys
 
 def print_statistics(total_size, status_counts):
