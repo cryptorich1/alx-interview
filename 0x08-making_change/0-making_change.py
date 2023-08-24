@@ -13,7 +13,7 @@ def makeChange(coins, total):
   if total <= 0:
     return 0
   change = 0
-  coins = sorted(coins)[::-1]
+  coins = sorted(coins)[:-1]
   for coin in coins:
     while coin <= total:
       total -= coin
